@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using MoviesApp.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +10,15 @@ namespace MoviesApp.Controllers
 {
     public class ActorsController : Controller
     {
-        public IActionResult Index()
+        private readonly AppDbContext _context;
+        public ActorsController(AppDbContext context)
         {
-            return View();
+            _context = context;
+        }
+        public async Task<IActionResult> Index()
+        {
+            var data = await _context.Actors.ToListAsync();
+            return View(data);
         }
     }
 }
