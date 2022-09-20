@@ -77,3 +77,7 @@ D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Actors\De
 D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Actors\Edit.cshtml.g.cs
 D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Actors\Delete.cshtml.g.cs
 D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Shared\NotFound.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Producers\Details.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Producers\Create.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Producers\Edit.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Producers\Delete.cshtml.g.cs
