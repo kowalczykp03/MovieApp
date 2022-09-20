@@ -1,19 +1,19 @@
-﻿@model Actor
+﻿@model Producer
 
-@{ 
-    ViewData["title"] = "Update Actor";
+@{
+    ViewData["title"] = "Update Producer";
 }
 
 <div class="row text">
     <div class="col-md-8 offset-2">
         <p>
-            <h1>Update actor</h1>
+            <h1>Update Producer</h1>
         </p>
         <div class="row">
             <div class="col-md-8 offset-2">
                 <form asp-action="Edit">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                
+
                     <div class="form-group text-center">
                         <img class="border-info rounded-circle" style="max-width:150px;" id="ProofilePicturePreview" />
                     </div>
@@ -42,7 +42,7 @@
         </div>
     </div>
 </div>
-@section Scripts{ 
+@section Scripts{
     <script>
         $(document).ready(function () {
             var output = document.getElementById('ProofilePicturePreview');
