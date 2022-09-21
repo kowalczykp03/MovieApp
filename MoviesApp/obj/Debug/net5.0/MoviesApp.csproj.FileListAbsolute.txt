@@ -81,3 +81,7 @@ D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Producers
 D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Producers\Create.cshtml.g.cs
 D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Producers\Edit.cshtml.g.cs
 D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Producers\Delete.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Cinemas\Create.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Cinemas\Delete.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Cinemas\Details.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Cinemas\Edit.cshtml.g.cs
