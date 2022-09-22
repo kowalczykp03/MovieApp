@@ -33,6 +33,7 @@ namespace MoviesApp
             services.AddScoped<IActorsService, ActorsService>();
             services.AddScoped<IProducerService, ProducersService>();
             services.AddScoped<ICinemasService, CinemasService>();
+            services.AddScoped<IMoviesService, MoviesService>();
             services.AddControllersWithViews();
         }
 
