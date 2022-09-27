@@ -27,6 +27,13 @@ using MoviesApp.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 3 "D:\Programming\Movies\MoviesApp\MoviesApp\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "D:\Programming\Movies\MoviesApp\MoviesApp\Views\Orders\ShoppingCart.cshtml"
 using MoviesApp.Data.ViewModels;
 
@@ -34,7 +41,7 @@ using MoviesApp.Data.ViewModels;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a47c45cc1d1f0263db3e094aa3da946ec9b964cb", @"/Views/Orders/ShoppingCart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5882aa8728854e1b1a672d451715379f59bd6a9a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1839aec3c9e26996da80634f1eca7ae06d604143", @"/Views/_ViewImports.cshtml")]
     public class Views_Orders_ShoppingCart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ShoppingCartVM>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("text-danger"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -137,7 +144,7 @@ using MoviesApp.Data.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                    <td class=\"align-middle\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a47c45cc1d1f0263db3e094aa3da946ec9b964cb8231", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a47c45cc1d1f0263db3e094aa3da946ec9b964cb8417", async() => {
                 WriteLiteral("\r\n                            <i class=\"bi bi-cart-dash\"></i>\r\n                        ");
             }
             );
@@ -171,7 +178,7 @@ using MoviesApp.Data.ViewModels;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a47c45cc1d1f0263db3e094aa3da946ec9b964cb10855", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a47c45cc1d1f0263db3e094aa3da946ec9b964cb11041", async() => {
                 WriteLiteral("\r\n                            <i class=\"bi bi-cart-plus\"></i>\r\n                        ");
             }
             );
@@ -222,7 +229,7 @@ using MoviesApp.Data.ViewModels;
 #nullable disable
             WriteLiteral("\r\n                    </td>\r\n                    <td></td>\r\n                </tr>\r\n            </tfoot>\r\n        </table>\r\n        <div class=\"text-center\">\r\n            <div class=\"btn-group\">\r\n");
             WriteLiteral("                <div id=\"paypal-btn\"></div>\r\n                <span style=\"padding:5px;\"></span>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a47c45cc1d1f0263db3e094aa3da946ec9b964cb14544", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a47c45cc1d1f0263db3e094aa3da946ec9b964cb14730", async() => {
                 WriteLiteral("Add more items");
             }
             );

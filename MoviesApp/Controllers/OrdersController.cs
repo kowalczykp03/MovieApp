@@ -1,14 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MoviesApp.Data.Cart;
 using MoviesApp.Data.Services;
+using MoviesApp.Data.Static;
 using MoviesApp.Data.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace MoviesApp.Controllers
 {
+    [Authorize]
     public class OrdersController : Controller
     {
         private readonly IMoviesService _moviesService;
@@ -20,11 +24,11 @@ namespace MoviesApp.Controllers
             _shoppingCart = shoppingCart;
             _ordersService = ordersService;
         }
-
         public async Task<IActionResult> Index()
         {
-            string userId = "";
-            var orders = await _ordersService.GetOrdersByUserIdAsync(userId);
+            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            string userRole = User.FindFirstValue(ClaimTypes.Role);
+            var orders = await _ordersService.GetOrdersByUserIdAndRoleAsync(userId, userRole);
             return View(orders);
         }
         public IActionResult ShoppingCart()
@@ -41,7 +45,7 @@ namespace MoviesApp.Controllers
         public async Task<IActionResult> AddItemToShoppingCart(int id)
         {
             var item = await _moviesService.GetMovieByIdAsync(id);
-            if(item != null)
+            if (item != null)
             {
                 _shoppingCart.AddItemToCart(item);
             }
@@ -60,8 +64,8 @@ namespace MoviesApp.Controllers
         public async Task<IActionResult> CompleteOrder()
         {
             var items = _shoppingCart.GetShoppingCartItems();
-            string userId = "";
-            string userEmailAddres ="";
+            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            string userEmailAddres = User.FindFirstValue(ClaimTypes.Email);
 
             await _ordersService.StoreOrderAsync(items, userId, userEmailAddres);
             await _shoppingCart.ClearShoppingCartAsync();
