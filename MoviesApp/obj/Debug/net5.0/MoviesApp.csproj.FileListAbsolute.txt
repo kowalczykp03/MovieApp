@@ -93,3 +93,14 @@ D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Orders\Sh
 D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Shared\Components\ShoppingCartSummary\Default.cshtml.g.cs
 D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Orders\OrderCompleted.cshtml.g.cs
 D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Orders\Index.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Programming\Movies\MoviesApp\MoviesApp\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Programming\Movies\MoviesApp\MoviesApp\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Programming\Movies\MoviesApp\MoviesApp\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Programming\Movies\MoviesApp\MoviesApp\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Account\RegisterCompleted.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Shared\_Identity.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Account\Users.cshtml.g.cs
+D:\Programming\Movies\MoviesApp\MoviesApp\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
